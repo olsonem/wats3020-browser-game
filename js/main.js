@@ -202,8 +202,8 @@ let playAgainButtons = document.querySelectorAll('.play-again')
         button.addEventListener('click', function(event){
         game = new TicTacToe();
         game.start();
-        this.drawScreen.classList.remove('show');
-        this.winScreen.classList.remove('show'); 
+        game.drawScreen.classList.remove('show');
+        game.winScreen.classList.remove('show'); 
 
     });
 }
