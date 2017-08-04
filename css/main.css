@@ -30,8 +30,8 @@
 #gameboard .row div {
     text-align: center;
 }
-#gameboard div.col-xs-3 {
-    width: 33%;
+#gameboard div.col-xs-2 {
+    width: 20%;
 }
 .tile {
     background: rgba(253, 255, 252, 0.2);
